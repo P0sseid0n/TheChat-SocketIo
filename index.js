@@ -54,4 +54,4 @@ app.get('/chat', chatAuth, (req, res) => {
     res.render('chat', { nickname: req.session.nickname })
 })
 
-http.listen(3000, () => console.log('Online'))
+http.listen(process.env.PORT || 5000, () => console.log('Online'))
