@@ -2,13 +2,15 @@ const express = require('express');
 const app = express();
 const http = require('http').createServer(app);
 const io = require('socket.io')(http);
+const path = require('path');
 
 const session = require('express-session')
 
 app.use(session({ secret: 'posseidonsecret', cookie: { maxAge: 14_400_000 } }))
-app.use(express.static('public'))
+app.use(express.static(path.join(__dirname, 'public')))
 app.use(express.urlencoded({ extended: false }))
 app.use(express.json())
+app.set('views', path.join(__dirname, 'views'))
 
 app.set('view engine', 'ejs')
 
