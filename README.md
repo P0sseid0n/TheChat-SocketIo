@@ -11,9 +11,9 @@
 
 > My chat made with Socket.io
 
-### 🏠 [Homepage](https://the-chat-test.herokuapp.com/)
+<!-- ### 🏠 [Homepage](https://the-chat-test.herokuapp.com/) -->
 
-### ✨ [Demo](https://the-chat-test.herokuapp.com/2)
+### ✨ [Demo](https://the-chat-test.herokuapp.com/)
 
 ## Install
 
