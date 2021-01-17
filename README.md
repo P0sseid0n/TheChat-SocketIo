@@ -11,6 +11,8 @@
 
 > My chat made with Socket.io
 
+<img alt="Home Page" src="HomePage.png" align="center" width="640" />
+
 <!-- ### 🏠 [Homepage](https://the-chat-test.herokuapp.com/) -->
 
 ### ✨ [Demo](https://the-chat-test.herokuapp.com/)
